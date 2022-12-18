@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.onlinebooking.UpdatOperation">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/bprice5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:layout_weight=".5"
+            android:background="@drawable/border_radious"
+            android:hint="Enter new price"
+            android:inputType="number"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/bedition5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:layout_weight=".5"
+            android:background="@drawable/border_radious"
+            android:hint="Enter new Edition"
+            android:inputType="number"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/bpage5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:layout_weight=".5"
+            android:background="@drawable/border_radious"
+            android:hint="Enter total page"
+            android:inputType="number"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/bword5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:layout_weight=".5"
+            android:background="@drawable/border_radious"
+            android:hint="Enter total words"
+            android:inputType="number"
+            android:paddingLeft="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sa1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:layout_below="@id/l1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:backgroundTint="#6e8d9f"
+        android:textColor="@color/white"
+        android:background="@drawable/style"
+        android:text="update" />
+</RelativeLayout>

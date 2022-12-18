@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.onlinebooking.Admin">
+
+    <EditText
+        android:id="@+id/Bname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/style"
+        android:hint="Book name"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/aname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/Bname"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/style"
+        android:hint="Auther name"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/aname"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/style"
+        android:hint="Book Code"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/l1"
+        android:layout_below="@id/code">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:hint="Price"
+            android:inputType="number"
+            android:paddingLeft="20dp"
+            android:id="@+id/bprice"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/style"
+            android:layout_weight=".5"/>
+        <EditText
+            android:layout_width="0dp"
+            android:hint="Edition"
+            android:inputType="number"
+            android:id="@+id/bedition"
+            android:background="@drawable/style"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="20dp"
+            android:layout_weight=".5"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/l2"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/l1">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:hint="Total page"
+            android:inputType="number"
+            android:id="@+id/bpage"
+            android:textSize="20sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/style"
+            android:layout_weight=".5"/>
+        <EditText
+            android:layout_width="0dp"
+            android:hint="Total words"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+            android:id="@+id/bword"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/style"
+            android:layout_weight=".5"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/book_link"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:layout_below="@id/l2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/style"
+        android:hint="Enter link"
+
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/sa"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/book_link"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/style"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:backgroundTint="#6e8d9f" />
+
+
+</RelativeLayout>

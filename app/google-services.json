@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631548503729",
+    "project_id": "online-booking-41f90",
+    "storage_bucket": "online-booking-41f90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631548503729:android:ac8b9933c4fd37ff4aa490",
+        "android_client_info": {
+          "package_name": "com.example.onlinebooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631548503729-5sso9jo86vu12pmq9irg3r08s53j4bdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVmSVNjTzgkJjjjz20k8gOYf3zt0lebEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631548503729-5sso9jo86vu12pmq9irg3r08s53j4bdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

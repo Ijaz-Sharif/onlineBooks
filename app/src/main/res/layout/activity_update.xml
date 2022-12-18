@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.onlinebooking.Update">
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_centerInParent="true"
+      android:id="@+id/Cn"
+      android:textSize="20sp"
+      android:layout_margin="20dp"
+      android:background="@drawable/border_radious"
+      android:paddingLeft="20dp"
+      android:hint="Enter book code"/>
+
+  <Button
+      android:id="@+id/UP"
+      android:layout_width="200dp"
+      android:layout_height="50dp"
+      android:textSize="20sp"
+      android:layout_below="@id/Cn"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="30dp"
+      android:background="@drawable/style"
+      android:text="submit"
+      android:textColor="@color/white"
+      app:backgroundTint="#6e8d9f" />
+</RelativeLayout>
